@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+.debug .header-main-container{
+    background-color: aqua;
+    background-image: url(img/jumbo.png);
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: center center;
+   
+    
+}
+.debug header aside, #sezione{
+    min-width: 300px;
+    
+    color: blanchedalmond;
+}
+.debug .main-main-conteiner{
+    background-image: url(img/jumbo.png);
+    background-size: contain;
+    min-width: 10px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+#riquadro1{
+    background-color: none;
+    width: 400px;
+    height: 200px;
+    border-style: dashed;
+    color: white;
+    text-align: center;
+}
+a{
+    color: white;
+}
+.main-main-conteiner-2{
+    background-color:white;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#arrosto{
+    background-image:url(img/item1.svg);
+    background-size:contain;
+
+    
+}
+section{
+    width: 250px;
+    height: 150px;
+    border-style: dashed;
+}
+
+#palevioletred{
+        background-color: palevioletred;
+        width: 200px;   
+        height: 250px; 
+}
+.main-main-conteiner-3{
+        background-color:silver;
+        min-height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+}
+#palevioletred{
+        background-color: palevioletred;
+        width: 200px;  
+}
+    
+.main-main-conteiner-4{
+     justify-content: center;   
+     background-color:silver;
+     min-height: 400px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+#verde{
+        background-color:green;
+        min-height: 350px;
+        width: 550px ;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    
+}
+.main-main-conteiner-5{
+        background-color:rgb(37, 37, 37);
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+}
+#rosa{
+        background-color:pink;
+        width: 150px ;
+        height: 200px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+}
+
+.chiaro{
+    background-color:aqua;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 200px;    
+}
+
+.main-main-conteiner-6{
+        background-color:rgb(37, 37, 37);
+        min-height: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+}
+#acquamrine-line{
+        background-color: aquamarine;
+        width: 550px;
+        margin-top: 10px;
+        margin-bottom:10px;
+    
+}
+    
