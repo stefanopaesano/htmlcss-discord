@@ -140,12 +140,26 @@ section{
 }
 
 .chiaro{
-    background-color:aqua;
+
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100px;
     height: 200px;    
 }
+li{
+    list-style-type: none;
+    color: white;
+}
+.italiapng{
+   width: 30px;
+   height: auto;
+}
+
+
+i{
+    color: white;
+}
+
 
 .main-main-conteiner-6{
         background-color:rgb(37, 37, 37);
