@@ -102,17 +102,29 @@ section{
      background-color:silver;
      min-height: 400px;
      display: flex;
-     align-items: center;
-     justify-content: center;
+     align-items: column;
+     flex-direction: center;
+     
 }
 #verde{
-        background-color:green;
+        background-image: url(img/item4-big.svg);
+        background-size: contain;
         min-height: 350px;
         width: 550px ;
         margin-top: 5px;
-        margin-bottom: 5px;
-    
+        margin-bottom: 5px;  
+        order: (2);
+        
+        
 }
+
+.titolo-item4{
+    display: flex;
+    order: (1);
+    justify-content: center;
+
+}
+
 .main-main-conteiner-5{
         background-color:rgb(37, 37, 37);
         display: flex;
