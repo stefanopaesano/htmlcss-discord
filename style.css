@@ -61,6 +61,14 @@ html{
 
     
 }
+#item3{
+    background-image:url(img/item3.svg);
+    background-size:contain;
+    margin-top: 10px;
+
+}
+
+
 section{
     width: 250px;
     height: 150px;
@@ -86,6 +94,7 @@ section{
 #palevioletred{   
  width: 200px; 
  height: 250px;  
+ padding-top: 30px;
 }
     
 .main-main-conteiner-4{
