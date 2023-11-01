@@ -7,36 +7,48 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
 
 
 }
 .debug .header-main-container{
-    background-color: aqua;
-    background-image: url(img/jumbo.png);
+    
+    background-image: url(img/jumbo.png) ;
     min-height: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-flow: center center;
-   
-    
-}
-.debug header aside, #sezione{
-    min-width: 300px;
 
-    color: blanchedalmond;
+
+}
+
+.debug header aside, #sezione{
+min-width: 300px;
+color: blanchedalmond;
+
+}
+#sezione{
+    display: flex;
+    justify-content: space-between;
 }
 
 .debug .main-main-conteiner{
     background-image: url(img/jumbo.png);
-    background-size: contain;
+    background-size: cover;
     min-width: 10px;
     min-height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;   
+}
+.quadrato{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    color: white;
 }
 #riquadro1{
     
@@ -72,7 +84,7 @@ html{
 section{
     width: 250px;
     height: 150px;
-    border-style: dashed;
+
 }
 
 
@@ -131,8 +143,8 @@ section{
         align-items: stretch;
         justify-content: center;
 }
+
 #rosa{
-        background-color:pink;
         width: 150px ;
         height: 200px;
         margin-top: 5px;
@@ -169,11 +181,22 @@ i{
         justify-content: center;
     
 }
-#acquamrine-line{
-        background-color: aquamarine;
-        width: 550px;
-        margin-top: 10px;
-        margin-bottom:10px;
-    
+#acquamrine-line{    
+width: 550px;
+margin-top: 10px;
+margin-bottom:10px;
+height: 30px;
+display: flex;
+justify-content: space-between;   
 }
+.bottone {
+    background-color:white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+  }
+  
     
