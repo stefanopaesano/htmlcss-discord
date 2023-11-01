@@ -25,9 +25,10 @@ html{
 }
 .debug header aside, #sezione{
     min-width: 300px;
-    
+
     color: blanchedalmond;
 }
+
 .debug .main-main-conteiner{
     background-image: url(img/jumbo.png);
     background-size: contain;
@@ -38,16 +39,15 @@ html{
     justify-content: center;   
 }
 #riquadro1{
-    background-color: none;
+    
     width: 400px;
     height: 200px;
     border-style: dashed;
     color: white;
     text-align: center;
 }
-a{
-    color: white;
-}
+
+
 .main-main-conteiner-2{
     background-color:white;
     min-height: 400px;
@@ -55,7 +55,7 @@ a{
     align-items: center;
     justify-content: center;
 }
-#arrosto{
+#item1{
     background-image:url(img/item1.svg);
     background-size:contain;
 
@@ -67,11 +67,7 @@ section{
     border-style: dashed;
 }
 
-#palevioletred{
-        background-color: palevioletred;
-        width: 200px;   
-        height: 250px; 
-}
+
 .main-main-conteiner-3{
         background-color:silver;
         min-height: 400px;
@@ -80,9 +76,16 @@ section{
         justify-content: center;
         flex-direction: row-reverse;
 }
-#palevioletred{
-        background-color: palevioletred;
-        width: 200px;  
+#item2{
+    background-image:url(img/item2.svg);
+    background-size:contain;
+
+    
+}
+
+#palevioletred{   
+ width: 200px; 
+ height: 250px;  
 }
     
 .main-main-conteiner-4{
